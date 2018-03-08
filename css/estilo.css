@@ -1,0 +1,336 @@
+/*
+body {
+    background-image: url("../imagens/fundo.jpg") no-repeat fixed 100% 100%;;
+    background-color: #cccccc;
+    background-size: contain;
+}
+
+body {
+  background: url('../imagens/fundo.jpg') no-repeat top center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'clan-blackblack';
+}
+*/
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* change navbar background */
+nav.navbar {
+  background: transparent;
+  text-transform: uppercase;
+}
+/* change navbar-brand color */
+.navbar a.navbar-brand {
+  color: white;
+}
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+  color: green;
+}
+/*  change navbar li colors, also active one but not disabled one */
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+}
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+/* change hamburger button border color */
+button.navbar-toggler.navbar-toggler-right {
+  border-color: white;
+}
+
+.navbar-toggler {
+  border: 1px solid white !important;
+}
+
+.navbar-trans {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: auto; margin-right: auto; */
+}
+
+.videos-ao-vivo {
+  border: 2px solid rgba(43, 25, 16, 1);
+  width: 80%;
+  margin-left: 10% !important;
+}
+
+.videos-ao-vivo div{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px;
+  background: rgba(43, 25, 16, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-top: -2px;
+}
+
+.container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  max-width: 100% !important;
+}
+
+.container-txt p {
+ color: rgba(43, 25, 16, 1);
+ font-family: 'clan-mediummedium';
+ font-size: 14px;
+ margin-bottom: 5px
+}
+
+.container-txt p.data {
+  font-size: 17px;
+}
+
+.container-txt p span {
+ font-family: 'clan-blackblack';
+}
+
+.container-txt-rodeio p {
+  color: rgba(43, 25, 16, 1);
+  /*text-align: justify;*/
+  line-height: 18px !important;
+  font-size: 14px !important;
+  font-family: 'clan-mediummedium';
+}
+
+.mp0 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* mobile */
+@media screen and (max-width: 992px) {
+
+  body {
+    background: url('../imagens/fundo_mobile.jpg') no-repeat top center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+    font-family: 'clan-blackblack';
+  }
+
+  .separador {
+    display: none;
+  }
+
+  .logotipo-rodeio {
+    display: none;
+  }
+
+  .logotipo-rodeio-mobile {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .img-info {
+    width: 50%;
+  }
+
+  .img-info-concurso {
+    width: 65%;
+  }
+
+  .img-videos {
+    width: 100%;
+  }
+
+  .ao-vivo-mobile {
+    display: block !important;
+  }
+
+  .ao-vivo-normal {
+    display: none !important;
+  }
+
+  .sub-menu {
+    background: transparent;
+    border: 0;
+    padding-left: 15px;
+  }
+
+  .div-info {
+    display: none !important;
+  }
+
+  .div-info-mobile {
+    display: block !important;
+    font-family: 'aachenbold';
+    text-transform: uppercase;
+  }
+
+  .div-info-mobile img{
+    width: 50%;
+  }
+
+  .div-info-mobile {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .div-info-mobile .data {
+    font-size: 20px;
+    color: rgba(43, 25, 16, 1);
+  }
+
+  .div-info-mobile .info {
+   font-size: 10px;
+   color: rgba(43, 25, 16, 1);
+  }
+
+  .div-info-mobile hr {
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid rgba(43, 25, 16, 1);
+  }
+
+  .div-info-mobile p {
+    margin: 5px;
+    text-align: center;
+  }
+
+  .splash-img-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* normal */
+@media screen and (min-width: 992px) {
+
+  body {
+    background: url('../imagens/fundo.jpg') no-repeat top center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+    font-family: 'clan-blackblack';
+  }
+
+  .logotipo-rodeio {
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .logotipo-rodeio-mobile {
+    display: none;
+  }
+
+  .img-info {
+    width: 30%;
+  }
+
+  .img-info-concurso {
+    width: 40%;
+  }
+
+  .img-videos {
+    width: 80%;
+  }
+
+  .ao-vivo-mobile {
+    display: none !important;
+  }
+
+  .ao-vivo-normal {
+    display: block !important;
+  }
+
+  /* sub menu */
+  .sub-menu {
+    background-color: rgba(43, 25, 16, 1);
+    width: 400px;
+  }
+
+  .sub-menu li {
+    float: left;
+    padding: 5px;
+  }
+
+  .sub-menu li a {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  /* splash */
+  .div-info {
+    font-size: 10px;
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    font-family: 'aachenbold';
+    text-transform: uppercase;
+  }
+
+  .div-info img {
+    width: 75%
+  }
+
+  .div-info .data {
+    font-size: 25px;
+    color: rgba(43, 25, 16, 1);
+  }
+
+  .div-info .info {
+   font-size: 15px;
+   color: rgba(43, 25, 16, 1);
+  }
+
+  .div-info hr {
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid rgba(43, 25, 16, 1);
+  }
+
+  .div-info p {
+    margin: 5px;
+    text-align: center;
+  }
+
+  .div-info-mobile {
+    display: none !important;
+  }
+
+  .splash-img-info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.div-videos-principal {
+  padding: 0px;
+}
+
+.div-videos {
+  width: 100%;
+  /*border: 2px solid rgba(43, 25, 16, 1);*/
+  padding: 15px
+}
+
+.div-videos div{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(43, 25, 16, 1);
+  padding: 5px;
+  margin-top: -2px
+}

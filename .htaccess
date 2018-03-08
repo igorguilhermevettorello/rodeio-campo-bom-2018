@@ -1,0 +1,2 @@
+ErrorDocument 404 http://rodeio.campobom.rs.gov.br/404.html
+ErrorDocument 500 http://rodeio.campobom.rs.gov.br/500.html
